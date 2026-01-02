@@ -1,5 +1,8 @@
 # pytricia: an IP address lookup module for Python
 
+> [!NOTE]
+> This is a fork of https://github.com/jsommers/pytricia - the only difference is adding support to build binary packages
+
 Pytricia is a new python module to store IP prefixes in a patricia tree. 
 It's based on Dave Plonka's modified patricia tree code, and has three things 
 to recommend it over related modules (including py-radix and SubnetTree): 

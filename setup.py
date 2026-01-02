@@ -22,7 +22,7 @@ setup(name="pytricia",
       description="An efficient IP address storage and lookup module for Python.",
       author="Joel Sommers",
       author_email="jsommers@acm.org",
-      url="https://github.com/jsommers/pytricia",
+      url="https://github.com/rweir/pytricia",
       include_package_data=True,
       packages=find_packages(),
       keywords=['patricia tree','IP addresses'],
@@ -35,6 +35,7 @@ setup(name="pytricia",
               "Topic :: Software Development :: Libraries :: Python Modules",
               "Topic :: Internet :: Log Analysis",
               "Topic :: Scientific/Engineering",
+              "Private :: Do Not Upload",
       ],
       ext_modules=[
          Extension("pytricia", ["pytricia.c","patricia.c"],
@@ -53,7 +54,7 @@ code, and has three things to recommend it over related modules
 
  * there are a few nicer library features for manipulating the structure.
 
-See the github repo for documentation and some performance numbers: <https://github.com/jsommers/pytricia>.
+See the github repo for documentation and some performance numbers: <https://github.com/rweir/pytricia>.
 
 Pytricia is released under terms of the GNU Lesser General Public License,
 version 3.
